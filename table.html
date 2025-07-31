@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME TABLE</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            color: chocolate;
+            border-color: blueviolet;
+            background-color: aqua;
+        }
+        td{
+            text-align: center;
+        }
+        .s1{
+            color: aqua;
+        }
+        .s2{
+            color: blue;
+        }
+        .s3{
+            color: blueviolet;
+        }
+        .s4{
+            color: red;
+        }
+        .s5{
+            color: chartreuse;
+        }
+        .s6{
+            color: crimson;
+        }
+        .s7{
+            color: darkgoldenrod;
+        }
+        .x{
+       font-weight: bold;
+        }
+        .vt{
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+        }
+    </style>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td>DAY</td>
+            <td>7:30-8:30</td>
+            <td>8:30-9:30</td>
+            <td>9:30-9:40</td>
+            <td>9:40-10:30</td>
+            <td>10:30-12:30</td>
+            <td>12:30-1:30</td>
+            <td>1:30-2:30</td>
+            <td>2:30-3:30</td>
+            <td>3:30-4:30</td>
+           
+        </tr>
+        <tr>
+            <td>MON</td>
+            <td class="s1">s1</td>
+            <td class="s2">s2</td>
+            <td rowspan="6" class="vt">BREAK</td>
+            <td class="s4">s4</td>
+            <td class="s5">s5</td>
+            <td rowspan="6" class="vt">LUNCH</td>
+            <td class="s6">s6</td>
+            <td class="s7">s7</td>
+             <td>s8</td>
+        </tr>
+        <tr>
+             <td>TUES</td>
+            <td  class="s4">s4</td>
+            <td class="s3">s3</td>
+            <td class="s2">s2</td>
+            <td class="s5">s5</td>
+            <td class="s1">s1</td>
+            <td colspan="2" class="x">LIBRARY</td>
+        </tr>
+        <tr> <td>WED</td>
+            <td class="s3">s3</td>
+            <td class="s1">s1</td>
+            <td class="s2">s2</td>
+            <td  class="s4">s4</td>
+            <td colspan="3" class="x">LAB</td>
+           </tr>
+
+        <tr> <td>THURS</td>
+            <td class="s5">s5</td>
+            <td class="s2">s2</td>
+            <td  class="s4">s4</td>
+            <td class="s3">s3</td>
+            <td class="s1">s1</td>
+            <td class="s6">s6</td>
+            <td class="s7">s7</td></tr>
+
+        <tr> <td>FRI</td>
+            <td class="s2">s2</td>
+            <td class="s3">s3</td>
+            <td class="s7">s7</td>
+            <td class="s1">s1</td>
+            <td class="s5">s5</td>
+            <td class="s6">s6</td>
+            <td class="s7">s7</td></tr>
+
+        <tr> <td>SAT</td>
+            <td class="s1">s1</td>
+            <td class="s2">s2</td>
+            <td colspan="2" class="x">SEMINAR</td>
+            <td class="s5">s5</td>
+            <td class="s6">s6</td>
+            <td class="s7">s7</td></tr>
+    </table>
+    
+</body>
+</html>
